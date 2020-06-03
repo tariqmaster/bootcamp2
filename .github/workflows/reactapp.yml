@@ -35,4 +35,4 @@ jobs:
     - name: installing surge  
       run: npm install -g surge
     - name: depolying on surge
-      run: surge ./build http://bootcamp3620.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build https://bootcamp3620.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
